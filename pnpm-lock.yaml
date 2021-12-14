@@ -1,0 +1,14 @@
+lockfileVersion: 5.3
+
+specifiers:
+  builtin-modules: ^3.2.0
+
+dependencies:
+  builtin-modules: 3.2.0
+
+packages:
+
+  /builtin-modules/3.2.0:
+    resolution: {integrity: sha1-RdXbmefuXmvE82LgCL+RerUEmIc=, tarball: builtin-modules/download/builtin-modules-3.2.0.tgz}
+    engines: {node: '>=6'}
+    dev: false

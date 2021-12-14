@@ -1,0 +1,36 @@
+{
+  "name": "@iyowei/js-module-dependencies-to-be-installed",
+  "version": "1.0.0",
+  "description": "JavaScript 模块（esm, cjs, amd, ts, tsx, jsx）说明符过滤器：需要额外安装的的模块。",
+  "main": "jsModuleDependenciesToBeInstalled.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyowei/js-module-dependencies-to-be-installed.git"
+  },
+  "keywords": [
+    "iyowei"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyowei/js-module-dependencies-to-be-installed/issues"
+  },
+  "homepage": "https://github.com/iyowei/js-module-dependencies-to-be-installed#readme",
+  "type": "module",
+  "exports": "./jsModuleDependenciesToBeInstalled.js",
+  "files": [
+    "jsModuleDependenciesToBeInstalled.js"
+  ],
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "builtin-modules": "^3.2.0"
+  }
+}
