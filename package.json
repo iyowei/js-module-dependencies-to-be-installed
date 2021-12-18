@@ -1,6 +1,6 @@
 {
   "name": "@iyowei/js-module-dependencies-to-be-installed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript 模块（esm, cjs, amd, ts, tsx, jsx）说明符过滤器：需要额外安装的的模块。",
   "main": "jsModuleDependenciesToBeInstalled.js",
   "scripts": {},
